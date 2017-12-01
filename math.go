@@ -11,6 +11,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 )
 
+//
 func GetRandCode(codetype, strlen int) string {
 	rcode := ""
 	mcode := [10]string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
