@@ -29,6 +29,7 @@ func GetRandCode(codetype, strlen int) string {
 	return rcode
 }
 
+///
 func GetRandNum(min, max int) int {
 	return rand.New(rand.NewSource(time.Now().UnixNano())).Intn(max-min) + min
 }
